@@ -1,0 +1,61 @@
+
+# # List of datasets to merge
+# datasets:
+#   - name: "coco_filt_avaltar"
+#     data_dir: "/home/LIBS/jozefov/projects/object_detection_avaltar/object_detection/data/coco_filt_avaltar"
+#     train_images_dir: "train/"
+#     train_labels_dir: "annotations/yolo_format_train"
+#     val_images_dir: "val/"
+#     val_labels_dir: "annotations/yolo_format_val"
+#     # test_images_dir: "test/"
+#     # test_labels_dir: "annotations/yolo_format_test"
+  
+#   - name: "forklift_and_human_v2"
+#     data_dir: "/home/LIBS/jozefov/projects/object_detection_avaltar/object_detection/data/roboflow/forklift-and-human_v2"
+#     train_images_dir: "train/images"
+#     train_labels_dir: "train/labels"
+#     val_images_dir: "valid/images"
+#     val_labels_dir: "valid/labels"
+#     test_images_dir: "test/images"
+#     test_labels_dir: "test/labels"
+
+# # Parameters for the merged dataset
+# merged_dataset:
+#   data_dir: "/home/LIBS/jozefov/projects/object_detection_avaltar/object_detection/data/v3_forkift_coco_filt_avaltar"
+#   train_images_dir: "train/images"
+#   train_labels_dir: "train/labels"
+#   val_images_dir: "valid/images"
+#   val_labels_dir: "valid/labels"
+#   test_images_dir: "test/images"
+#   test_labels_dir: "test/labels"
+
+
+# List of datasets to merge
+datasets:
+  - name: "coco_filt_avaltar"
+    data_dir: "/home/LIBS/jozefov/projects/object_detection_avaltar/object_detection/data/v3_forkift_coco_filt_avaltar"
+    train_images_dir: "train/images"
+    train_labels_dir: "train/labels"
+    val_images_dir: "valid/images"
+    val_labels_dir: "valid/labels"
+    test_images_dir: "test/images"
+    test_labels_dir: "test/labels"
+  
+  - name: "PPE-Detection-Using-CV-3"
+    data_dir: "/home/LIBS/jozefov/projects/object_detection_avaltar/object_detection/data/PPE-Detection-Using-CV-3"
+    train_images_dir: "train/images"
+    train_labels_dir: "train/labels"
+    val_images_dir: "valid/images"
+    val_labels_dir: "valid/labels"
+    test_images_dir: "test/images"
+    test_labels_dir: "test/labels"
+
+# Parameters for the merged dataset
+merged_dataset:
+  data_dir: "/home/LIBS/jozefov/projects/object_detection_avaltar/object_detection/data/merged_filt_avaltar_v3"
+  train_images_dir: "train/images"
+  train_labels_dir: "train/labels"
+  val_images_dir: "valid/images"
+  val_labels_dir: "valid/labels"
+  test_images_dir: "test/images"
+  test_labels_dir: "test/labels"
